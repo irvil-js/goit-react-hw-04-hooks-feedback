@@ -37,17 +37,6 @@ function App() {
     }
   };
 
-  // const countTotalFeedback = () => {
-  //   const total = good + neutral + bad;
-  //   return total;
-  // };
-
-  // const countPositiveFeedbackPercentage = () => {
-  // const positiveFeedback = Math.round((good / countTotalFeedback) * 100);
-  // return positiveFeedback ? positiveFeedback : 0;
-  //   return Math.round((good / countTotalFeedback()) * 100) || 0;
-  // };
-
   return (
     <>
       <Section title="Please leave feedback">
