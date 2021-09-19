@@ -1,0 +1,30 @@
+.buttonContainer {
+  width: 400px;
+  margin: 10px auto;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  color: rgb(240, 11, 190);
+}
+
+.button:hover {
+  color: rgb(224, 164, 211);
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+.button:active {
+  color: rgb(224, 164, 211);
+}

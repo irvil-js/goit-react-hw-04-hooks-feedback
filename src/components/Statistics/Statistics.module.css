@@ -1,0 +1,31 @@
+.statList {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.list {
+  list-style: none;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.list li {
+  position: relative;
+  padding: 20px 0 20px 40px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.list li:before {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4f5151;
+  content: "";
+  left: 0;
+  transition: 0.3s ease-in-out;
+  top: 27px;
+}
